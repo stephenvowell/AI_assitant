@@ -34,7 +34,8 @@ while True:
         model="llama3-70b-8192",
         messages=chat_history,
         max_tokens=1000,
-        temperature=1.0    )
+        temperature=1.2
+    )
 
     # Extract the assistant's response
     assistant_response = response.choices[0].message.content
