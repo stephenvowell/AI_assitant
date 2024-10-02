@@ -1,6 +1,8 @@
+
 import os
-from groq import Groq
+import pyttsx3
 from datetime import datetime
+from groq import Groq  # Assuming Groq is the correct import for your client
 
 # Create the Groq client
 api_key = os.environ.get("GROQ_API_KEY")
@@ -19,16 +21,20 @@ system_prompt = {
     )
 }
 
-# Initialize the chat history
-chat_history = [system_prompt]
+# Function to speak and print the response
+def speak_and_print_response(response_text):
+    # Initialize the TTS engine
+    engine = pyttsx3.init()
+    
+    # Print the response to the terminal
+    print(response_text)
+    
+    # Speak the response
+    engine.say(response_text)
+    engine.runAndWait()
 
-while True:
-    # Get user input from the console
-    user_input = input("You: ")
-
-    # Append the user input to the chat history
-    chat_history.append({"role": "user", "content": user_input})
-
+# Function to get a response from the Groq client
+def get_response(chat_history):
     # Get the response from the AI assistant
     response = client.chat.completions.create(
         model="llama3-70b-8192",
@@ -39,21 +45,39 @@ while True:
 
     # Extract the assistant's response
     assistant_response = response.choices[0].message.content
+    return assistant_response
 
-    # Append the response to the chat history
-    chat_history.append({"role": "assistant", "content": assistant_response})
-
-    # Get the current date and time
-    current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-    # Print the current date and time
-    print(f"TIME: {current_time}")
-
-    # Print the response
-    print("Assistant:", assistant_response)
-
-    # Write the prompt, response, and current time to response.txt
+# Function to write the conversation to a file
+def write_to_file(user_input, assistant_response):
     with open("response.txt", "a") as file:
-        file.write(f"TIME: {current_time}\n")
-        file.write("USER: " + user_input + "\n")
-        file.write("ASSISTANT: " + assistant_response + "\n")
+        current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        file.write(f"TIME: {current_datetime}\n")
+        file.write(f"USER: {user_input}\n")
+        file.write(f"ASSISTANT: {assistant_response}\n\n")
+
+# Main function
+def main():
+    # Get the current date and time
+    current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    chat_history = [
+        {"role": "system", "content": system_prompt["content"]},
+        {"role": "user", "content": f"Hello, how can I assist you today? The current date and time is {current_datetime}."}
+    ]
+    
+    while True:
+        response = get_response(chat_history)
+        speak_and_print_response(response)
+        
+        # Get the next user input
+        user_input = input("You: ")
+        
+        # Append the conversation to the chat history
+        chat_history.append({"role": "user", "content": user_input})
+        chat_history.append({"role": "assistant", "content": response})
+        
+        # Write the conversation to the file
+        write_to_file(user_input, response)
+        
+if __name__ == "__main__":
+    main()
