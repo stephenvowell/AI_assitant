@@ -45,7 +45,7 @@ def get_response(chat_history):
         model="llama3-70b-8192",
         messages=chat_history,
         max_tokens=1000,
-        temperature=1.2
+        temperature=1.1
     )
 
     # Extract the assistant's response
