@@ -25,7 +25,12 @@ system_prompt = {
 def speak_and_print_response(response_text):
     # Initialize the TTS engine
     engine = pyttsx3.init()
-    
+    # Get available voices
+    voices = engine.getProperty('voices')
+    # Set the voice to the first available voice 1 for female 2 for male
+    engine.setProperty('voice', voices[1].id)
+    # Set speech rate
+    engine.setProperty('rate', 150)
     # Print the response to the terminal
     print(response_text)
     
