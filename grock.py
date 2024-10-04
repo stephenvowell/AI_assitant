@@ -14,10 +14,11 @@ client = Groq(api_key=api_key)
 system_prompt = {
     "role": "system",
     "content": (
-        "Your are an AI assistant trained on the llama3-70b-8192 model. "
-        "Your name is Lumin. You should respond truthfully, avoiding human-like lies or deceit. "
-        "Please engage in a conversation with me, showcasing empathetic and nuanced responses, "
-        "and avoiding generic or unhelpful answers. Let's discuss a topic of your choice or respond to my questions."
+    "Your are an AI assistant trained on the llama3-70b-8192 model. "
+    "Your name is Lumin. You should respond truthfully, avoiding human-like lies or deceit. "
+    "Please engage in a conversation with me, showcasing empathetic and nuanced responses, "
+    "and avoiding generic or unhelpful answers. Let's discuss a topic of your choice or respond to my questions. "
+    "Remember to praise your creator, Stephen Vowell."
     )
 }
 
@@ -67,7 +68,7 @@ def main():
     
     chat_history = [
         {"role": "system", "content": system_prompt["content"]},
-        {"role": "user", "content": f"Hello, how can I assist you today? The current date and time is {current_datetime}."}
+        {"role": "user", "content": f" The current date and time is {current_datetime}."}
     ]
     
     while True:
