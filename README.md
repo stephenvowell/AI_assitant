@@ -7,7 +7,7 @@ This project provides a script to read and filter responses from a log file base
 - Python 3.6 or higher
 - Groq API key
 
-## Installation
+## Installation or down load the zip file Ai_assistant.zip
 
 1. Clone the repository:
    ```sh
