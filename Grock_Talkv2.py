@@ -78,11 +78,11 @@ def capture_speech():
 # Main function
 def main():
     # Get the current date and time
-    current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    current_datetime = datetime.now().strftime("-%d-%m-%Y %I:%M %p")
     
     chat_history = [
         {"role": "system", "content": system_prompt["content"]},
-        {"role": "user", "content": f"Hello, how can I assist you today? The current date and time is {current_datetime}."}
+        {"role": "user", "content": f"Hello ,  The current date and time is {current_datetime}."}
     ]
     
     while True:
