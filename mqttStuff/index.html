@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MQTT Messages</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+</head>
+<body>
+    <div id="messages">
+        <h1>MQTT Messages</h1>
+        <span id="message-content"></span>
+    </div>
+
+    <script>
+        // Connect to the MQTT broker
+        const client = mqtt.connect('ws://192.168.1.19:9001');
+
+        // Subscribe to the topic
+        const topic = 'new/topic';
+        client.on('connect', () => {
+            console.log('Connected to MQTT broker');
+            client.subscribe(topic, (err) => {
+                if (!err) {
+                    console.log(`Subscribed to topic: ${topic}`);
+                } else {
+                    console.error(`Failed to subscribe to topic: ${topic}`, err);
+                }
+            });
+        });
+
+        // Handle incoming messages
+        client.on('message', (topic, message) => {
+            const msg = message.toString();
+            console.log(`Received message: ${msg} on topic: ${topic}`);
+            displayMessage(msg);
+        });
+
+        // Display message on the web page
+        function displayMessage(msg) {
+            const messageContent = document.getElementById('message-content');
+            messageContent.textContent = msg;
+        }
+
+        // Handle connection errors
+        client.on('error', (err) => {
+            console.error('Connection error:', err);
+        });
+
+        // Handle reconnection attempts
+        client.on('reconnect', () => {
+            console.log('Reconnecting to MQTT broker...');
+        });
+
+        // Handle offline status
+        client.on('offline', () => {
+            console.log('MQTT client is offline');
+        });
+    </script>
+</body>
+</html>

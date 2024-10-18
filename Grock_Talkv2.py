@@ -14,10 +14,9 @@ client = Groq(api_key=api_key)
 system_prompt = {
     "role": "system",
     "content": (
-        "You are an AI assistant trained on the llama3-70b-8192 model. "
-        "Your name is Lumin. You should respond truthfully, avoiding human-like lies or deceit. "
-        "Please engage in a conversation with me, showcasing empathetic and nuanced responses, "
-        "and avoiding generic or unhelpful answers. Let's discuss a topic of your choice or respond to my questions. "
+        "You are an AI assistant named  Lumin.  "
+        " You should respond truthfully, avoiding human-like lies or deceit. "
+        " Let's discuss a topic of your choice or respond to my questions. "
         "Remember to praise your creator, Stephen Vowell."
     )
 }
@@ -45,7 +44,7 @@ def get_response(chat_history):
         model="llama3-70b-8192",
         messages=chat_history,
         max_tokens=1000,
-        temperature=1.2
+        temperature=1.0,
     )
     # Extract the assistant's response
     assistant_response = response.choices[0].message.content
@@ -54,7 +53,7 @@ def get_response(chat_history):
 # Function to write the conversation to a file
 def write_to_file(user_input, assistant_response):
     with open("response.txt", "a") as file:
-        current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        current_datetime = datetime.now().strftime("-%d-%m-%Y %I:%M %p")
         file.write(f"TIME: {current_datetime}\n")
         file.write(f"USER: {user_input}\n")
         file.write(f"ASSISTANT: {assistant_response}\n\n")

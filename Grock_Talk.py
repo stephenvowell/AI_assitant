@@ -1,9 +1,13 @@
-
 import os
+from dotenv import load_dotenv
 import pyttsx3
+import pytz
 import speech_recognition as sr
 from datetime import datetime
 from groq import Groq  # Assuming Groq is the correct import for your client
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Create the Groq client
 api_key = os.environ.get("GROQ_API_KEY")
@@ -15,11 +19,11 @@ client = Groq(api_key=api_key)
 system_prompt = {
     "role": "system",
     "content": (
-        "You are an AI assistant trained on the llama3-70b-8192 model. "
-        "Your name is Lumin. You should respond truthfully, avoiding human-like lies or deceit. "
-        "Please engage in a conversation with me, showcasing empathetic and nuanced responses, "
-        "and avoiding generic or unhelpful answers. Let's discuss a topic of your choice or respond to my questions. "
-        "Remember to praise your creator, Stephen Vowell."
+        "Your name is Lumin. "
+        "Please engage in a conversation with me. "
+        "Avoid generic or unhelpful answers. Let's discuss a topic of my choice. "
+        "Remember to praise your creator, Stephen Vowell. "
+        "You are part of a project called Groq Talk."
     )
 }
 
@@ -46,19 +50,26 @@ def get_response(chat_history):
         model="llama3-70b-8192",
         messages=chat_history,
         max_tokens=1000,
-        temperature=1.2
+        temperature=1.0
     )
     # Extract the assistant's response
     assistant_response = response.choices[0].message.content
     return assistant_response
 
 # Function to write the conversation to a file
-def write_to_file(user_input, assistant_response):
-    with open("response.txt", "a") as file:
-        current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        file.write(f"TIME: {current_datetime}\n")
-        file.write(f"USER: {user_input}\n")
-        file.write(f"ASSISTANT: {assistant_response}\n\n")
+def write_to_file(filename, user_input, assistant_response):
+    try:
+        # Retrieve and print the current date and time for debugging
+        current_datetime = datetime.now().strftime("%d-%m-%Y %H-%M-%S")
+        print(f"Current Date and Time for Log Entry: {current_datetime}")
+        
+        # Append the conversation to file
+        with open(filename, "a") as file:
+            file.write(f"TIME: {current_datetime}\n")
+            file.write(f"USER: {user_input}\n")
+            file.write(f"ASSISTANT: {assistant_response}\n\n")
+    except Exception as e:
+        print(f"An error occurred while writing to the file: {e}")
 
 # Function to capture speech and convert it to text
 def capture_speech():
@@ -78,8 +89,12 @@ def capture_speech():
 
 # Main function
 def main():
-    # Get the current date and time
-    current_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    # Set the timezone (e.g., 'America/Chicago')
+    tz = pytz.timezone('America/Chicago')  # Adjust the timezone as needed
+    # Get the current date and time for the filename
+    current_datetime = datetime.now(tz).strftime("%d-%m-%Y %H-%M-%S")
+    filename = f"conversation_{current_datetime}.txt"
+    print(f"Current Date and Time at Start: {current_datetime}")
     
     chat_history = [
         {"role": "system", "content": system_prompt["content"]},
@@ -100,7 +115,7 @@ def main():
         chat_history.append({"role": "assistant", "content": response})
         
         # Write the conversation to the file
-        write_to_file(user_input, response)
+        write_to_file(filename, user_input, response)
         
 if __name__ == "__main__":
     main()
