@@ -1,35 +1,7 @@
 [
     {
-        "title": "Meta hides warning labels for AI-edited images",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2f675784-4666-497b-8867-104365facbab"
-    },
-    {
-        "title": "ByteDance will reportedly use Huawei chips to train a new AI model",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_696f4cdb-5436-43e1-b3cd-6cdaee93cbe7"
-    },
-    {
-        "title": "Google stuffs more AI into search",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_eba09b0d-668d-4107-9b5e-157c39637a97"
-    },
-    {
-        "title": "Google is using AI to make fake podcasts from your research",
-        "url": "https://www.theverge.com/2024/9/11/24242138/google-notebook-llm-ai-fake-podcasts-research"
-    },
-    {
         "title": "Generative AI Hype Feels Inescapable. Tackle It Head On With Education",
         "url": "https://www.wired.com/story/artificial-intelligence-hype-ai-snake-oil/"
-    },
-    {
-        "title": "Slack AI will generate transcripts and notes from huddles",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_c3de1f4c-927a-4c53-b950-00dac2a1ebe6"
-    },
-    {
-        "title": "US senators urge regulators to probe potential AI antitrust violations",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d64cd078-b2eb-48b6-a61d-7a6d46dda79d"
-    },
-    {
-        "title": "ChatGPT, Mistral AI, Google AI\u2026 Lifetime Access to Top AI Tools for Just $39.99",
-        "url": "https://gizmodo.com/chatgpt-mistral-ai-google-ai-lifetime-access-to-top-ai-tools-for-just-39-99-2000498392"
     },
     {
         "title": "Google AI, ChatGPT, Meta AI, Mistral: All These AI Tools Nearly Unlimited for $39 Lifetime",
@@ -40,16 +12,12 @@
         "url": "https://www.theverge.com/2024/9/30/24258134/raspberry-pi-ai-camera-module-sony-price-availability"
     },
     {
-        "title": "Lionsgate signs a deal with the devil (an AI startup)",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_2126e033-9544-434c-8276-0e1cc9682648"
-    },
-    {
-        "title": "Reddit is rolling out AI-powered translations to 35 countries",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_45cc877d-98a4-45ea-9606-b455d3154fd6"
-    },
-    {
         "title": "Is AI More Sustainable if You Generate it Underwater?",
         "url": "https://www.wired.com/story/gadget-lab-podcast-660/"
+    },
+    {
+        "title": "Agents are the future AI companies promise \u2014 and desperately need",
+        "url": "https://www.theverge.com/2024/10/10/24266333/ai-agents-assistants-openai-google-deepmind-bots"
     },
     {
         "title": "Meta Releases Llama 3.2\u2014and Gives Its AI a Voice",
@@ -64,32 +32,20 @@
         "url": "https://www.wired.com/story/chromebooks-are-getting-a-new-button-and-a-host-of-google-ai-features/"
     },
     {
-        "title": "The United Nations Wants to Treat AI With the Same Urgency as Climate Change",
-        "url": "https://www.wired.com/story/united-nations-artificial-intelligence-report/"
-    },
-    {
         "title": "How to Generate an AI Podcast Using Google's NotebookLM",
         "url": "https://www.wired.com/story/ai-podcast-google-notebooklm/"
     },
     {
-        "title": "The Google Photos video editor is getting AI, because of course it is",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_9f6ab3df-1984-49a3-80d5-f19182724f27"
+        "title": "Apple Engineers Show How Flimsy AI \u2018Reasoning\u2019 Can Be",
+        "url": "https://www.wired.com/story/apple-ai-llm-reasoning-research/"
     },
     {
         "title": "Meta Teaches Its Ray-Ban Smart Glasses Some New AI Tricks",
         "url": "https://www.wired.com/story/ray-ban-meta-smart-glasses-connect-2024/"
     },
     {
-        "title": "Amazon is stuffing generative AI into its shopping experience",
-        "url": "https://www.theverge.com/2024/9/19/24249046/amazon-generative-ai-tools-personalized-shopping-recommendations"
-    },
-    {
-        "title": "Lionsgate signs deal to train AI model on its movies and shows",
-        "url": "https://www.theverge.com/2024/9/18/24248115/lionsgate-runway-ai-deal"
-    },
-    {
-        "title": "Right-wingers can\u2019t get enough of anti-Haitian AI disinformation",
-        "url": "https://www.theverge.com/2024/9/12/24243021/springfield-ohio-haitians-ai-generated-misinformation-trump"
+        "title": "Google\u2019s Gemini AI might soon appear in your corporate Workspace",
+        "url": "https://www.theverge.com/2024/9/24/24252934/google-workspace-gemini-ai-security-assistant"
     },
     {
         "title": "Meta is working on recreating influencers with AI",
@@ -100,28 +56,16 @@
         "url": "https://www.theverge.com/2024/10/1/24258337/microsoft-windows-ai-features-click-to-do-super-resolution-photos"
     },
     {
-        "title": "Google\u2019s Gemini AI might soon appear in your corporate Workspace",
-        "url": "https://www.theverge.com/2024/9/24/24252934/google-workspace-gemini-ai-security-assistant"
-    },
-    {
-        "title": "Amazon tablets are getting AI tools, like writing assist and automatic website summaries",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_4613181c-6b1c-4869-8e46-c1e5d57daee3"
+        "title": "Chromebooks Are Getting a Dedicated AI Key, but You Won\u2019t Use It for AI",
+        "url": "https://gizmodo.com/chromebooks-are-getting-a-dedicated-ai-key-but-you-wont-use-it-for-ai-2000505155"
     },
     {
         "title": "Meta\u2019s AI Image Generator Runs Into the Same Roadblocks as Other AI Art Generators",
         "url": "https://gizmodo.com/metas-ai-image-generator-runs-into-the-same-roadblocks-as-other-ai-art-generators-2000503009"
     },
     {
-        "title": "Chromebooks Are Getting a Dedicated AI Key, but You Won\u2019t Use It for AI",
-        "url": "https://gizmodo.com/chromebooks-are-getting-a-dedicated-ai-key-but-you-wont-use-it-for-ai-2000505155"
-    },
-    {
         "title": "What the Hell Is \u2018Agentic\u2019 AI on the new MediaTek Dimensity Flagship Mobile Chip?",
         "url": "https://gizmodo.com/what-the-hell-is-agentic-ai-on-the-new-mediatek-dimensity-flagship-mobile-chip-2000509386"
-    },
-    {
-        "title": "Most US Teens Use Generative AI. Most of Their Parents Don't Know",
-        "url": "https://www.wired.com/story/teens-generative-ai-use-schools-parents/"
     },
     {
         "title": "An \u2018iPhone of AI\u2019 Makes No Sense. What Is Jony Ive Really Building?",
@@ -148,60 +92,44 @@
         "url": "https://www.theverge.com/2024/10/4/24261926/gmail-for-ios-gemini-ai-assistant-inbox-support"
     },
     {
-        "title": "This is a great AI voice recorder, and it\u2019s totally doomed",
-        "url": "https://www.theverge.com/2024/9/14/24243781/plaud-notepin-review-ai-voice-recorder"
+        "title": "Adobe Max 2024: All the major announcements around design and AI",
+        "url": "https://www.theverge.com/2024/10/14/24269859/adobe-max-2024-major-announcements-stream"
     },
     {
         "title": "Mark Zuckerberg: publishers \u2018overestimate the value\u2019 of their work for training AI",
         "url": "https://www.theverge.com/2024/9/25/24254042/mark-zuckerberg-creators-value-ai-meta"
     },
     {
-        "title": "Judge blocks new California law barring distribution of election-related AI deepfakes",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_58afc5d8-c511-4803-9be0-76953910c548"
-    },
-    {
-        "title": "Machine learning pioneers, including the 'Godfather of AI,' are awarded the Nobel Prize in Physics",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_6520a371-80be-4f58-afc3-cdc8b7ee93c5"
-    },
-    {
-        "title": "Meta\u2019s AI chatbot will soon speak in the voices of John Cena and other celebrities",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_cc72ce2a-587b-4bb6-bcc5-9bd84b83e49c"
-    },
-    {
-        "title": "HP's Print AI will offer a better way to print websites",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1489905e-f3a0-42ed-8d98-58062666e08a"
-    },
-    {
-        "title": "Engadget Podcast: Why the Windows 11 2024 update is all about Copilot AI",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_b3f2584d-3430-48b1-bf75-c4348f20d394"
-    },
-    {
-        "title": "Nevada will use Google AI to process a backlog of unemployment cases",
-        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_c36e8199-6ed4-4038-bd6c-100fcb515154"
-    },
-    {
-        "title": "Transform Your Content Creation with an Excellent AI Toolkit: Don\u2019t Miss This $99.99 Lifetime Deal",
-        "url": "https://gizmodo.com/transform-your-content-creation-with-an-excellent-ai-toolkit-dont-miss-this-99-99-lifetime-deal-2000496731"
+        "title": "Shopping on Google Is Getting AI Recommendations",
+        "url": "https://gizmodo.com/shopping-on-google-is-getting-ai-recommendations-2000511931"
     },
     {
         "title": "Amazon Wants AI to Decide What You Buy",
         "url": "https://gizmodo.com/amazon-wants-ai-to-decide-what-you-buy-2000509872"
     },
     {
-        "title": "Xavier Niel, a Driving Force of French AI, Is Now Shaping TikTok",
-        "url": "https://www.wired.com/story/what-xavier-niel-can-do-for-tiktok/"
+        "title": "This Prompt Can Make an AI Chatbot Identify and Extract Personal Details From Your Chats",
+        "url": "https://www.wired.com/story/ai-imprompter-malware-llm/"
     },
     {
-        "title": "Lionsgate\u2019s New Deal Is a Test of Hollywood\u2019s Relationship With AI",
-        "url": "https://www.wired.com/story/lionsgates-new-deal-is-a-test-of-hollywoods-relationship-with-ai/"
+        "title": "Filmmakers Are Worried About AI. Big Tech Wants Them to See \u2018What's Possible\u2019",
+        "url": "https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/"
     },
     {
         "title": "This Startup Wants YouTube Creators to Get Paid for AI Training Data",
         "url": "https://www.wired.com/story/license-to-scrape-youtube-ai-data-license-creators/"
     },
     {
+        "title": "Penguin Adds a Do-Not-Scrape-for-AI Page to Its Books",
+        "url": "https://gizmodo.com/penguin-adds-a-do-not-scrape-for-ai-page-to-its-books-2000513543"
+    },
+    {
         "title": "Microsoft\u2019s Copilot AI Gets a Voice, Vision, and a \u2018Hype Man\u2019 Persona",
         "url": "https://www.wired.com/story/microsoft-copilot-vision-voice-emotional-support-windows-office/"
+    },
+    {
+        "title": "It Seemed Like an AI Crime-Fighting Super Tool. Then Defense Attorneys Started Asking Questions",
+        "url": "https://www.wired.com/story/cybercheck-crime-reports-prosecutions/"
     },
     {
         "title": "This Homemade AI Drone Software Finds People When Search and Rescue Teams Can\u2019t",
@@ -212,44 +140,20 @@
         "url": "https://www.theverge.com/2024/9/26/24255031/samsung-galaxy-s24-fe-watch-lte-tab-s10-ultra-announced"
     },
     {
-        "title": "Hasbro\u2019s CEO Thinks D&D\u2018s Adoption of AI Is Inevitable",
-        "url": "https://gizmodo.com/hasbro-ceo-dungeons-dragons-ai-2000498007"
-    },
-    {
-        "title": "Google\u2019s AI Will Help Decide Whether Unemployed Workers Get Benefits",
-        "url": "https://gizmodo.com/googles-ai-will-help-decide-whether-unemployed-workers-get-benefits-2000496215"
-    },
-    {
         "title": "California Governor Vetoes AI Bill Aimed at Preventing Catastrophic Harms",
         "url": "https://gizmodo.com/california-governor-vetoes-ai-bill-aimed-at-preventing-catastrophic-harms-2000504550"
     },
     {
-        "title": "Famous AI Artist Says He\u2019s Losing Millions of Dollars From People Stealing His Work",
-        "url": "https://gizmodo.com/famous-ai-artist-says-hes-losing-millions-of-dollars-from-people-stealing-his-work-2000505822"
+        "title": "The Federal Government Is Too Broke and Stupid for the AI Revolution",
+        "url": "https://gizmodo.com/the-federal-government-is-too-broke-and-stupid-for-the-ai-revolution-2000511094"
     },
     {
         "title": "Nobel Prize Goes to \u2018Godfathers of AI\u2019 Who Now Fear Their Work Is Growing Too Powerful",
         "url": "https://gizmodo.com/nobel-prize-goes-to-godfathers-of-ai-who-now-fear-their-work-is-growing-too-powerful-2000509098"
     },
     {
-        "title": "Why Is Trump Posting So Many AI Cat Pictures",
-        "url": "https://gizmodo.com/why-is-trump-posting-so-many-ai-cat-pictures-2000498293"
-    },
-    {
-        "title": "Samsung Galaxy S24 FE Hands On: Galaxy AI Deja Vu",
-        "url": "https://gizmodo.com/samsung-galaxy-s24-fe-hands-on-galaxy-ai-deja-vu-2000503999"
-    },
-    {
-        "title": "Senators Believe AI Summaries May Be an Antitrust Violation",
-        "url": "https://gizmodo.com/senators-call-on-ftc-to-investigate-ai-summaries-as-an-antitrust-violation-2000497441"
-    },
-    {
-        "title": "AI Survey Reveals Hundreds of \u2018Nazca Line\u2019 Geoglyphs",
-        "url": "https://gizmodo.com/ai-survey-reveals-hundreds-of-nazca-line-geoglyphs-2000502668"
-    },
-    {
-        "title": "New Study Suggests AI Could Convince Conspiracy Theorists They\u2019re Wrong",
-        "url": "https://gizmodo.com/new-study-suggests-ai-could-convince-conspiracy-theorists-theyre-wrong-2000498663"
+        "title": "Famous AI Artist Says He\u2019s Losing Millions of Dollars From People Stealing His Work",
+        "url": "https://gizmodo.com/famous-ai-artist-says-hes-losing-millions-of-dollars-from-people-stealing-his-work-2000505822"
     },
     {
         "title": "Human Feedback Makes AI Better at Deceiving Humans, Study Shows",
@@ -258,6 +162,14 @@
     {
         "title": "Judge Blocks California\u2019s New Anti-AI Deepfake Election Bill",
         "url": "https://gizmodo.com/judge-blocks-californias-new-anti-ai-deepfake-election-bill-2000506925"
+    },
+    {
+        "title": "Samsung Galaxy S24 FE Hands On: Galaxy AI Deja Vu",
+        "url": "https://gizmodo.com/samsung-galaxy-s24-fe-hands-on-galaxy-ai-deja-vu-2000503999"
+    },
+    {
+        "title": "AI Survey Reveals Hundreds of \u2018Nazca Line\u2019 Geoglyphs",
+        "url": "https://gizmodo.com/ai-survey-reveals-hundreds-of-nazca-line-geoglyphs-2000502668"
     },
     {
         "title": "Youth Sports Were Already Intense\u2014Now AI Tools Are Supercharging the Competition",
@@ -282,5 +194,49 @@
     {
         "title": "AI Fears and Short-Sighted Execs: Voice Acting Legend Jennifer Hale Lays Out the Stakes of the Video Game Voice Actor Strike",
         "url": "https://gizmodo.com/ai-fears-and-short-sighted-execs-voice-acting-legend-jennifer-hale-lays-out-the-stakes-of-the-video-game-voice-actor-strike-2000501935"
+    },
+    {
+        "title": "Want to Truly Succeed in Making ChatGPT Your Ultimate Assistant? Here\u2019s Your Chance to Master AI for $24.99",
+        "url": "https://gizmodo.com/want-to-truly-succeed-in-making-chatgpt-your-ultimate-assistant-heres-your-chance-to-master-ai-for-24-99-2000502572"
+    },
+    {
+        "title": "Congressman Refuses to Debate, so His Opponent Is Using an AI Stand-In",
+        "url": "https://gizmodo.com/congressman-refuses-to-debate-so-his-opponent-is-using-an-ai-stand-in-2000509810"
+    },
+    {
+        "title": "Small Price for Millions of Free Content with BitMar\u2019s AI-Powered Content Finder, Just $15!",
+        "url": "https://gizmodo.com/small-price-for-millions-of-free-content-with-bitmars-ai-powered-content-finder-just-15-2000512074"
+    },
+    {
+        "title": "Microsoft re-launches \u2018privacy nightmare\u2019 AI screenshot tool",
+        "url": "https://www.bbc.com/news/articles/c869glx8endo"
+    },
+    {
+        "title": "Parents Sue School That Gave Bad Grade to Student Who Used AI to Complete Assignment",
+        "url": "https://gizmodo.com/parents-sue-school-that-gave-bad-grade-to-student-who-used-ai-to-complete-assignment-2000512000"
+    },
+    {
+        "title": "London Newspaper Plans to Revive Dead Art Critic With AI, Lays Off Real Writers",
+        "url": "https://gizmodo.com/london-newspaper-plans-to-revive-dead-art-critic-with-ai-lays-off-real-writers-2000502912"
+    },
+    {
+        "title": "Scarlett Johansson, Kylie Jenner and Taylor Swift Top List of Celebrities Used for AI Scams",
+        "url": "https://gizmodo.com/scarlett-johansson-kylie-jenner-and-taylor-swift-top-list-of-celebrities-used-for-ai-scams-2000509158"
+    },
+    {
+        "title": "Gemini Extensions Will Help Google\u2019s AI Take Over Your Android Phone",
+        "url": "https://gizmodo.com/gemini-extensions-will-help-googles-ai-take-over-your-android-phone-2000506758"
+    },
+    {
+        "title": "iPad Mini Is Back, and Apple Says It\u2019s Primed for AI",
+        "url": "https://gizmodo.com/ipad-mini-is-back-and-apple-says-its-primed-for-ai-2000511986"
+    },
+    {
+        "title": "US Treasury Says AI Tools Prevented $1 Billion of Fraud in 2024",
+        "url": "https://gizmodo.com/us-treasury-says-ai-tools-prevented-1-billion-of-fraud-in-2024-2000513080"
+    },
+    {
+        "title": "Access All the AI You Need in Just One Minute for Only $40 with a Lifetime Subscription to 1minAI",
+        "url": "https://gizmodo.com/access-all-the-ai-you-need-in-just-one-minute-for-only-40-with-a-lifetime-subscription-to-1minai-2000513099"
     }
 ]

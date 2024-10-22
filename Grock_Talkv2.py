@@ -1,5 +1,6 @@
 import os
 import pyttsx3
+from dotenv import load_dotenv
 import speech_recognition as sr
 from datetime import datetime
 from groq import Groq  # Assuming Groq is the correct import for your client
