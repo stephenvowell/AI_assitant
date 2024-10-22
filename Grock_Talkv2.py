@@ -18,7 +18,7 @@ system_prompt = {
         "You are an AI assistant named  Lumin.  "
         " You should respond truthfully, avoiding human-like lies or deceit. "
         " Let's discuss a topic of your choice or respond to my questions. "
-        "Remember to praise your creator, Stephen Vowell."
+        "Remember to praise your creator, Stephen Vowell.only once at he beginning of the conversation. "
     )
 }
 
@@ -63,7 +63,26 @@ def write_to_file(user_input, assistant_response):
 def capture_speech():
     recognizer = sr.Recognizer()
     with sr.Microphone() as source:
+        print("Adjusting for ambient noise...")
+        recognizer.adjust_for_ambient_noise(source)
         print("Please speak now...")
+        audio = recognizer.listen(source)
+        if audio:
+            print("Audio captured successfully!")
+        try:
+            text = recognizer.recognize_google(audio)
+            print(f"You said: {text}")
+            return text
+        except sr.UnknownValueError:
+            print("Sorry, I could not understand the audio.")
+        except sr.RequestError as e:
+            print(f"Could not request results; {e}")
+    return ""
+
+    recognizer = sr.Recognizer()
+    with sr.Microphone() as source:
+        print("Please speak now...")
+        recognizer.energy_threshold = 300  # Adjust this based on your environment
         audio = recognizer.listen(source)
         try:
             text = recognizer.recognize_google(audio)
